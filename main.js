@@ -6,10 +6,8 @@
 // };
 
 // function getFullName({ firstName = "Aimon", lastName = "Dunik" }) {
-//   return {
-//     firstName,
-//     lastName,
-//   };
+//   return `${firstName}
+//     ${lastName}`;
 // }
 // console.log(getFullName(user));
 
@@ -28,17 +26,17 @@
 
 //?    3-задание////////////
 
-const data = {
-  products: [
-    { id: 1, name: "Product 1" },
-    { id: 2, name: "Product 2" },
-  ],
-};
+// const data = {
+//   products: [
+//     { id: 1, name: "Product 1" },
+//     { id: 2, name: "Product 2" },
+//   ],
+// };
 
-function printProductNames(data) {
-  for (const { name } of data.products) {
-    console.log(`name: ${name}`);
-  }
-}
+// function printProductNames(data) {
+//   for (const { name } of data.products) {
+//     return `name: ${name}`;
+//   }
+// }
 
-printProductNames(data);
+// printProductNames(data);
